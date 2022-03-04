@@ -1,4 +1,4 @@
-# Programming Assignment 1 - Socket Programming
+# Socket Programming
 
 ## How to run
 1. Log into Ubuntu host in command line: "ssh -Y username@ubuntu2004-002.student.cs.uwaterloo.ca". This host will run the server program. Take note of the server address: "ubuntu2004-002"
