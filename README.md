@@ -1,7 +1,7 @@
 # Socket Programming
 
 ## How to run
-1. Log into Ubuntu host in command line: "ssh -Y username@ubuntu2004-002.student.cs.uwaterloo.ca". This host will run the server program. Take note of the server address: "ubuntu2004-002"
+1. Log into Ubuntu host in command line: "ssh -Y username@ubuntu2004-002.student.cs.uwaterloo.ca". This host will run the server program. Take note of the server address: "ubuntu2004-002". An IP address will work in this case as well
 2. Navigate into the directory with the program files on ubuntu2004-002. Run server.py in python3: "python3 server.py"
 3. Enter the required parameters each separated by a space (port number and request code). In this case: "1024 13"
 This means the server will listen on port 1024 and the required request codes for clients to connect will be 13
@@ -19,4 +19,4 @@ The client will terminate.
 2. Make sure your inputs are formatted properly although the program will send error messages for any improper formatting.
 3. You can run this program on the same machine by following the exact steps outlined above. However, make sure to initiate it in different Shell tabs. 
     1. Navigate to the directory that the program files are stored, then run each program by "python3 'program_name.py'"
-    2. When asked for the server address in the client program, enter 'localhost' as that is the server address when running it on the same machine
+    2. When asked for the server address in the client program, enter 'localhost' or '127.0.0.1' as that is the server address when running it on the same machine
