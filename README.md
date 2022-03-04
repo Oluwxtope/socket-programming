@@ -11,7 +11,8 @@ This means the server will listen on port 1024 and the required request codes fo
 This means the client will attempt to connect to the server named ubuntu2004-002 on port 1024 and provide the server with the request code 13 and the message "A man, a plan, a canal—Panama!"
 7. The server will send you a reversal of the message. In this example: "!amanaP—lanac a ,nalp a ,nam A".  
 The client will terminate.
-8. The server will continue to listen for clients attempting to connect. Run the client program once more and repeat step 6 with a different message.
+8. The server will continue to listen for clients attempting to connect. Run the client program once more by going back to step 6 with a different message.
+9. To terminate anyone of the programs, hit Ctrl + C
 
 ## Miscellaneous info
 1. Both programs were written in Python 3. They will not run properly if you initiate it in the command line with "python 'program.py'" instead of "python3 'program.py'"

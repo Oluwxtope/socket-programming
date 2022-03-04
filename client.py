@@ -33,7 +33,7 @@ else: # If request code sent was right, receive random port and send message
     client_socket.close()
     client_socket_udp = socket(AF_INET, SOCK_DGRAM)
     client_socket_udp.sendto(message.encode(), (server_address, r_port)) # Send message as UDP datagram to port
-    print("Sending message via UDP on port", str(r_port) + "...")
+    print("Sending message as UDP datagram on port", str(r_port) + "...")
     modified_message, server_address = client_socket_udp.recvfrom(2048) # Receive modified message
     print("This is the reversed message:", modified_message.decode()) # Print modified message
     print("The session has ended!")
