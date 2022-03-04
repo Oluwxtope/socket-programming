@@ -12,3 +12,7 @@ This means the client will attempt to connect to the server named ubuntu2004-002
 7. The server will send you a reversal of the message. In this example: "!amanaP—lanac a ,nalp a ,nam A".  
 The client will terminate.
 8. The server will continue to listen for clients attempting to connect. Run the client program once more and repeat step 6 with a different message.
+
+## Miscellaneous info
+1. Both programs were written in Python 3. They will not run properly if you initiate it in the command line with "python 'program.py'" instead of "python3 'program.py'"
+2. Make sure your inputs are formatted properly although the program will send error messages for any improper formatting.
